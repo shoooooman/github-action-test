@@ -2,7 +2,16 @@ package main
 
 import "fmt"
 
-func f() {
+func f1() {
+	if false {
+	} else if false {
+	} else if false {
+	} else if false {
+	} else {
+	}
+}
+
+func f2() {
 	n := 0
 	switch n {
 	case 0:
