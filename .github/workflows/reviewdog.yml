@@ -9,3 +9,5 @@ jobs:
     - uses: shoooooman/go-complexity-analysis-action@v1
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
+        cycloover: 5
+        maintunder: 30
