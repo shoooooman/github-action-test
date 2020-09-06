@@ -11,3 +11,4 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         cycloover: 5
         maintunder: 30
+        workdir: a/
