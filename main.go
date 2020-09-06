@@ -10,6 +10,11 @@ func f1() {
 	} else if false {
 	} else if false {
 	} else if false {
+	} else if false {
+	} else if false {
+	} else if false {
+	} else if false {
+	} else if false {
 	} else {
 	}
 }
