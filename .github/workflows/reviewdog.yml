@@ -6,8 +6,6 @@ jobs:
     name: reviewdog test
     steps:
     - uses: actions/checkout@v2
-    - uses: shoooooman/go-complexity-analysis-action@v1
+    - uses: shoooooman/go-complexity-analysis-action@v1.1
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        cycloover: 5
-        maintunder: 30
